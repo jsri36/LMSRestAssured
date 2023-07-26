@@ -55,4 +55,33 @@ public class ConfigReader {
 	public String getBatch_Getall_Url() {	
 		return property.getProperty("batch_getall_url");
 	}
+	
+	public String getBatch_ById_Url() {	
+		return property.getProperty("batch_getbyid_url");
+	}
+	
+	public String getBatch_ByName_Url() {	
+		return property.getProperty("batch_getbyname_url");
+	}
+	
+	public String getBatch_ByProgramId_Url() {	
+		return property.getProperty("batch_getbyprogramid_url");
+	}
+	
+	public String getBatch_Put_Url() {	
+		return property.getProperty("batch_put_url");
+	}
+	
+	public String getBatch_Deletebyid_Url() {	
+		return property.getProperty("batch_deletebyid_url");
+	}
+	
+	//Submission
+	public String getApiUrl(String prop) {
+		return getBaseUrl() + property.getProperty(prop);
+	}
+	
+	public String get_grade_assignment_url() {
+		return getBaseUrl() + property.getProperty("grade_assignment");
+	}
 }

@@ -1,0 +1,1607 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 24, 2023 01:55:35 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@GetAllBatches</a><a class="dropdown-item" href="#">@DeleteBatch_Status404</a><a class="dropdown-item" href="#">@PostBatch_Status400_Missingdata</a><a class="dropdown-item" href="#">@GetBatchByID_Status404</a><a class="dropdown-item" href="#">@PostBatch_Status201</a><a class="dropdown-item" href="#">@PutBatch_Status400</a><a class="dropdown-item" href="#">@GetBatchByInvalidProgramID_Status404</a><a class="dropdown-item" href="#">@DeleteBatch_Status200</a><a class="dropdown-item" href="#">@GetBatchByProgramID_Status200</a><a class="dropdown-item" href="#">@tag</a><a class="dropdown-item" href="#">@GetBatchByInvalidName_Status404</a><a class="dropdown-item" href="#">@PostBatch_Status400</a><a class="dropdown-item" href="#">@GetBatchByID_Status200</a><a class="dropdown-item" href="#">@GetBatchByName_Status200</a><a class="dropdown-item" href="#">@PutBatch_Status200</a><a class="dropdown-item" href="#">@PutBatch_Status404</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">As a tester,I want to test and validate Program Batch Module</p>
+            <p class="text-sm">
+              <span>1:55:35 PM</span> / <span>00:00:05:946</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">As a tester,I want to test and validate Program Batch Module</h5>
+<span class='badge badge-success'>07.24.2023 1:55:35 PM</span>
+<span class='badge badge-danger'>07.24.2023 1:55:41 PM</span>
+<span class='badge badge-default'>00:00:05:946</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Create a Batch with valid endpoint and request body</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Create a Batch with valid endpoint and request body</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User creates Batch POST Request for the LMS API endpoint</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User sends HTTPS Request with all fields from "Batch" and 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User receives 201 Created Status with response body</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Create a Batch with valid endpoint and request body</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User creates Batch POST Request for the LMS API endpoint</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User sends HTTPS Request with all fields from "Batch" and 1</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User receives 201 Created Status with response body</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User creates Batch POST Request for the LMS API endpoint</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User sends HTTPS Request with all fields from "Batch" and 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User receives 400 Bad Request Status with message and boolean success details</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User creates Batch POST Request for the LMS API endpoint</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User sends HTTPS Request with missing fields from "Batch" and 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User receives 400 Bad Request Status with message and boolean success details</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to retrieve all batches with valid LMS API</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_get_request_for_the_lms_api_endpoint()">
+                <span>Given User creates Batch GET Request for the LMS API endpoint</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_Get_All_Batches()">
+                <span>When User sends HTTPS Request for Get All Batches</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_ok_status_with_response_body_for_Get_All_Batches(java.lang.Integer)">
+                <span>Then User receives 200 OK Status with response body for Get All Batches</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to retrieve a batch with valid BATCH ID</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_get_request_for_the_lms_api_endpoint_with_valid_batch_id()">
+                <span>Given User creates Batch GET Request for the LMS API endpoint with valid Batch ID</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_get_batch_by_id()">
+                <span>When User sends HTTPS Request for Get Batch By ID</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_ok_status_with_response_body_for_Get_Batch_By_ID(java.lang.Integer)">
+                <span>Then User receives 200 OK Status with response body for Get Batch By ID</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to retrieve a batch with invalid BATCH ID</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_get_request_for_the_lms_api_endpoint_with_invalid_batch_id()">
+                <span>Given User creates Batch GET Request for the LMS API endpoint with invalid Batch ID</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_get_batch_by_invalid_id()">
+                <span>When User sends HTTPS Request for Get Batch By InvalidID</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_not_found_status_with_message_and_boolean_success_details(java.lang.Integer)">
+                <span>Then User receives 404 Not Found Status with message and boolean success details</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="32"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to retrieve a batch with valid BATCH NAME</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_get_request_for_the_lms_api_endpoint_with_valid_batch_name()">
+                <span>Given User creates Batch GET Request for the LMS API endpoint with valid Batch name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_get_batch_by_name()">
+                <span>When User sends HTTPS Request for Get Batch By Name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_ok_status_with_response_body_for_get_batch_by_name(java.lang.Integer)">
+                <span>Then User receives 200 OK Status with response body for Get Batch By Name</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to retrieve a batch with invalid BATCH NAME</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_get_request_for_the_lms_api_endpoint_with_invalid_batch_name()">
+                <span>Given User creates Batch GET Request for the LMS API endpoint with Invalid Batch name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_get_batch_by_invalid_name()">
+                <span>When User sends HTTPS Request for Get Batch By InvalidName</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_not_found_status_with_message_and_boolean_success_details(java.lang.Integer)">
+                <span>Then User receives 404 Not Found Status with message and boolean success details</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="40"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to retrieve a batch with valid Program ID</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_get_request_for_the_lms_api_endpoint_with_valid_program_id()">
+                <span>Given User creates Batch GET Request for the LMS API endpoint with valid Program Id</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_get_batch_by_program_id()">
+                <span>When User sends HTTPS Request for Get Batch By Program ID</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_ok_status_with_response_body_for_get_batch_by_program_id(java.lang.Integer)">
+                <span>Then User receives 200 OK Status with response body for Get Batch By Program ID</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="44"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to retrieve a batch with invalid Program Id</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_get_request_for_the_lms_api_endpoint_with_invalid_program_id()">
+                <span>Given User creates Batch GET Request for the LMS API endpoint with invalid Program Id</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_get_batch_by_invalid_program_id()">
+                <span>When User sends HTTPS Request for Get Batch By Invalid Program ID</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_not_found_status_with_message_and_boolean_success_details(java.lang.Integer)">
+                <span>Then User receives 404 Not Found Status with message and boolean success details</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>Update a Batch with valid batchID and mandatory request body</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="49"><span class="badge log pass-bg mr-2">Pass</span>Update a Batch with valid batchID and mandatory request body</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User creates Batch PUT Request for the LMS API endpoint and Valid batch Id</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User sends HTTPS Request for update batch with all fields from "Batch" and 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User receives 200 OK Status with updated value in response body for update Batch</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>Update a Batch with invalid batchID and mandatory request body</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="54"><span class="badge log pass-bg mr-2">Pass</span>Update a Batch with invalid batchID and mandatory request body</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User creates Batch PUT Request for the LMS API endpoint and invalid batch Id</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User sends HTTPS Request for update batch with invalid batch Id & all fields from "Batch" and 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User receives 404 Not Found Status with message and boolean success details</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to update a Batch with valid batchID and missing mandatory fields request body</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="59"><span class="badge log pass-bg mr-2">Pass</span>Check if user able to update a Batch with valid batchID and missing mandatory fields request body</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User creates Batch PUT Request for the LMS API endpoint and Valid batch Id</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User sends HTTPS Request for update batch with missing fields from "Batch" and 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User receives 400 Bad Request Status with message and boolean success details</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>Delete a Batch with valid programName</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_delete_request_for_the_lms_api_endpoint_and_valid_program_name()">
+                <span>Given User creates Batch DELETE Request for the LMS API endpoint and valid programName</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_batch_delete_with_valid_program_name()">
+                <span>When User sends HTTPS Request for Batch DELETE with valid programName</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_ok_status_with_message(java.lang.Integer)">
+                <span>Then User receives 200 Ok status with message</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="67"><span class="badge log pass-bg mr-2">Pass</span>Delete a Batch with invalid programName</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_creates_batch_delete_request_for_the_lms_api_endpoint_and_invalid_program_name()">
+                <span>Given User creates Batch DELETE Request for the LMS API endpoint and invalid programName</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_sends_https_request_for_batch_delete_with_invalid_program_name()">
+                <span>When User sends HTTPS Request for Batch DELETE with invalid programName</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.Batch_SD.user_receives_not_found_status_with_message_and_boolean_success_details(java.lang.Integer)">
+                <span>Then User receives 404 Not Found Status with message and boolean success details</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">16</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@GetAllBatches</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@GetAllBatches</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Check if user able to retrieve all batches with valid LMS API</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve all batches with valid LMS API</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@DeleteBatch_Status404</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DeleteBatch_Status404</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='67'>Delete a Batch with invalid programName</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Delete a Batch with invalid programName</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@PostBatch_Status400_Missingdata</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PostBatch_Status400_Missingdata</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@GetBatchByID_Status404</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@GetBatchByID_Status404</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Check if user able to retrieve a batch with invalid BATCH ID</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with invalid BATCH ID</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@PostBatch_Status201</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PostBatch_Status201</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Create a Batch with valid endpoint and request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Create a Batch with valid endpoint and request body</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>Create a Batch with valid endpoint and request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Create a Batch with valid endpoint and request body</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@PutBatch_Status400</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PutBatch_Status400</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='59'>Check if user able to update a Batch with valid batchID and missing mandatory fields request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to update a Batch with valid batchID and missing mandatory fields request body</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@GetBatchByInvalidProgramID_Status404</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@GetBatchByInvalidProgramID_Status404</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>Check if user able to retrieve a batch with invalid Program Id</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with invalid Program Id</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@DeleteBatch_Status200</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DeleteBatch_Status200</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='63'>Delete a Batch with valid programName</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Delete a Batch with valid programName</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@GetBatchByProgramID_Status200</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@GetBatchByProgramID_Status200</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>Check if user able to retrieve a batch with valid Program ID</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with valid Program ID</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+</span>
+<p class="name">@tag</p>
+<p class="duration text-sm">16 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Create a Batch with valid endpoint and request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Create a Batch with valid endpoint and request body</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>Create a Batch with valid endpoint and request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Create a Batch with valid endpoint and request body</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Check if user able to retrieve all batches with valid LMS API</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve all batches with valid LMS API</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Check if user able to retrieve a batch with valid BATCH ID</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with valid BATCH ID</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Check if user able to retrieve a batch with invalid BATCH ID</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with invalid BATCH ID</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>Check if user able to retrieve a batch with valid BATCH NAME</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with valid BATCH NAME</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>Check if user able to retrieve a batch with invalid BATCH NAME</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with invalid BATCH NAME</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>Check if user able to retrieve a batch with valid Program ID</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with valid Program ID</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>Check if user able to retrieve a batch with invalid Program Id</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with invalid Program Id</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='49'>Update a Batch with valid batchID and mandatory request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Update a Batch with valid batchID and mandatory request body</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='54'>Update a Batch with invalid batchID and mandatory request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Update a Batch with invalid batchID and mandatory request body</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='59'>Check if user able to update a Batch with valid batchID and missing mandatory fields request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to update a Batch with valid batchID and missing mandatory fields request body</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='63'>Delete a Batch with valid programName</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Delete a Batch with valid programName</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='67'>Delete a Batch with invalid programName</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Delete a Batch with invalid programName</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@GetBatchByInvalidName_Status404</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@GetBatchByInvalidName_Status404</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>Check if user able to retrieve a batch with invalid BATCH NAME</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with invalid BATCH NAME</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@PostBatch_Status400</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PostBatch_Status400</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@GetBatchByID_Status200</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@GetBatchByID_Status200</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Check if user able to retrieve a batch with valid BATCH ID</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with valid BATCH ID</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@GetBatchByName_Status200</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@GetBatchByName_Status200</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>Check if user able to retrieve a batch with valid BATCH NAME</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Check if user able to retrieve a batch with valid BATCH NAME</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@PutBatch_Status200</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PutBatch_Status200</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='49'>Update a Batch with valid batchID and mandatory request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Update a Batch with valid batchID and mandatory request body</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@PutBatch_Status404</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PutBatch_Status404</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:55:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='54'>Update a Batch with invalid batchID and mandatory request body</a>
+<div class="">
+<span class="badge badge-default">As a tester,I want to test and validate Program Batch Module.Update a Batch with invalid batchID and mandatory request body</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 24, 2023 01:55:35 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 24, 2023 01:55:41 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>16</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>48</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"As a tester,I want to test and validate Program Batch Module":5.946
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@GetAllBatches</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@DeleteBatch_Status404</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PostBatch_Status400_Missingdata</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@GetBatchByID_Status404</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PostBatch_Status201</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PutBatch_Status400</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@GetBatchByInvalidProgramID_Status404</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@DeleteBatch_Status200</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@GetBatchByProgramID_Status200</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@GetBatchByInvalidName_Status404</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PostBatch_Status400</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@GetBatchByID_Status200</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@GetBatchByName_Status200</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PutBatch_Status200</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PutBatch_Status404</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 16,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 48,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

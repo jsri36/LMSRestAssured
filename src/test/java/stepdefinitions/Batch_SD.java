@@ -138,7 +138,7 @@ public class Batch_SD {
 	//@PostBatch_Status400
 	@Then("User receives {int} Bad Request Status with message and boolean success details")
 	public void user_receives_bad_request_status_with_message_and_boolean_success_details(Integer statuscode) {
-		LoggerLoad.info("********* Creating Batch with Existing values *********");
+		
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), statuscode);	
 		Assert.assertEquals(response.header("Content-Type"),"application/json");

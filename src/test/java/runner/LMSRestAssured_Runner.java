@@ -10,8 +10,13 @@ import io.cucumber.testng.CucumberOptions;
 				}, 
 		monochrome=false,  
 		tags = " ", 
-		features = {"src/test/resources/features",
-
+		features = {//"src/test/resources/features",
+				"src/test/resources/features/1_program.feature",
+				"src/test/resources/features/2_Program_Batch.feature",
+				"src/test/resources/features/3_User.feature",
+				"src/test/resources/features/4_Assignment.feature",
+				"src/test/resources/features/5_Submission.feature",
+				"src/test/resources/features/6_Delete.feature"
 		},
 		glue= "stepdefinitions") 
 

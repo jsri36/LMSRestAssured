@@ -2,14 +2,14 @@
 @TC05_Submission
 Feature: Submission Module
   
-  #@tag1  
-  #Scenario Outline: Assignment submission
-#		Given User creates Request with all mandatory fields and additional fields from "<sheetname>" and <rownum> 
-    #When User sends HTTPS Post Request and request Body for the api "assignment_submission" 
-    #Then user receives 201 status with response body with submission response
-    #Examples:
-    #	| sheetname   | rownum |
-    #	| Sheet1      | 0      |
+  @tag1  
+  Scenario Outline: Assignment submission
+		Given User creates Request with all mandatory fields and additional fields from "<sheetname>" and <rownum> 
+    When User sends HTTPS Post Request and request Body for the api "assignment_submission" 
+    Then user receives 201 status with response body with submission response
+    Examples:
+    	| sheetname   | rownum |
+    	| Sheet1      | 0      |
     	
   @tag2  
   Scenario Outline: Assignment submission bad request existings submission
@@ -126,7 +126,7 @@ Feature: Submission Module
   Scenario: Assignment submission bad request missing mandatory field
 		Given User update Request with missing manadatory field
 		When User sends HTTPS update grade Request and request Body for the api "Grade_assignment"
-    #Then user receives 400 status with response body success flag false
+    Then user receives 400 status with response body success flag false
     
    #@Ignore @tag21 
   #Scenario Outline: Check if user able to delete a submission with valid submission Id

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\jsri3\AppData\Local\Temp\testng-eclipse-1996726231\testng-customsuite.xml</span>
+                    <span>C:\Users\jsri3\AppData\Local\Temp\testng-eclipse-653056146\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">25 methods, 1 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update a program using valid program name&quot;, &quot;Program module&quot;)">runScenario("Check if user able to update a program using valid program name", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,122 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve all batches  with valid LMS API&quot;, &quot;Title of your feature&quot;)">runScenario("Check if user able to retrieve all batches  with valid LMS API", "Title of your feature")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Missing mandotiry field request&quot;, &quot;Program module&quot;)">runScenario("Missing mandotiry field request", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Update a Batch with valid batchID and mandatory request body&quot;, &quot;As a tester,I want to test and vali...)">runScenario("Update a Batch with valid batchID and mandatory request body", "As a tester,I want to test and vali...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create a program id&quot;, &quot;Program module&quot;)">runScenario("create a program id", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve a batch with invalid BATCH NAME&quot;, &quot;As a tester,I want to test and va...)">runScenario("Check if user able to retrieve a batch with invalid BATCH NAME", "As a tester,I want to test and va...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to create a program with valid endpoint and request body (existing values in Pro...)">runScenario("Check if user able to create a program with valid endpoint and request body (existing values in Pro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update a Batch with valid batchID and missing mandatory fields request body&quot;,...)">runScenario("Check if user able to update a Batch with valid batchID and missing mandatory fields request body",...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Create a Batch with valid endpoint and request body&quot;, &quot;As a tester,I want to test and validate Prog...)">runScenario("Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Prog...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve a batch with valid BATCH ID&quot;, &quot;As a tester,I want to test and valida...)">runScenario("Check if user able to retrieve a batch with valid BATCH ID", "As a tester,I want to test and valida...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)">runScenario("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Get response with programName&quot;, &quot;Program module&quot;)">runScenario("Get response with programName", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Get negative sceanrio  with programName&quot;, &quot;Program module&quot;)">runScenario("Get negative sceanrio  with programName", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a program  missing mandatory fields&quot;, &quot;Program module&quot;)">runScenario("user able to update a program  missing mandatory fields", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)">runScenario("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create a program id&quot;, &quot;Program module&quot;)">runScenario("create a program id", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Create a Batch with valid endpoint and request body&quot;, &quot;As a tester,I want to test and validate Prog...)">runScenario("Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Prog...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user is able to retrive with invalid prgramID&quot;, &quot;Program module&quot;)">runScenario("user is able to retrive with invalid prgramID", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve a batch with valid BATCH NAME&quot;, &quot;As a tester,I want to test and vali...)">runScenario("Check if user able to retrieve a batch with valid BATCH NAME", "As a tester,I want to test and vali...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update a program with valid programID&quot;, &quot;Program module&quot;)">runScenario("Check if user able to update a program with valid programID", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Update a Batch with invalid batchID and mandatory request body&quot;, &quot;As a tester,I want to test and va...)">runScenario("Update a Batch with invalid batchID and mandatory request body", "As a tester,I want to test and va...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve a batch with invalid Program Id&quot;, &quot;As a tester,I want to test and va...)">runScenario("Check if user able to retrieve a batch with invalid Program Id", "As a tester,I want to test and va...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Get program details with the programid&quot;, &quot;Program module&quot;)">runScenario("Get program details with the programid", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve a batch with valid Program ID&quot;, &quot;As a tester,I want to test and vali...)">runScenario("Check if user able to retrieve a batch with valid Program ID", "As a tester,I want to test and vali...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update a program with invalid programID&quot;, &quot;Program module&quot;)">runScenario("Check if user able to update a program with invalid programID", "Program module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve a batch with invalid BATCH ID&quot;, &quot;As a tester,I want to test and vali...)">runScenario("Check if user able to retrieve a batch with invalid BATCH ID", "As a tester,I want to test and vali...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -118,6 +247,53 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.LMSRestAssured_Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update a program using valid program name&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("Check if user able to update a program using valid program name", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update a program using valid program name","Program module")</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.Program_SD.user_receives_bad_request_status_with_message_and_boolean_success_details_for_program(Program_SD.java:348)
+	at ✽.User receives 400 Bad Request Status with message and boolean success details for program(file:///C:/Users/jsri3/WorkSpace/LMSRestAssured/src/test/resources/features/1_program.feature:58)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,10 +302,240 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Check if user able to retrieve all batches  with valid LMS API&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("Check if user able to retrieve all batches  with valid LMS API", "Title of your feature") -->
+                  <a name="runScenario(&quot;Missing mandotiry field request&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("Missing mandotiry field request", "Program module") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Check if user able to retrieve all batches  with valid LMS API","Title of your feature")</span>
+                  <span class="parameters">("Missing mandotiry field request","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Update a Batch with valid batchID and mandatory request body&quot;, &quot;As a tester,I want to test and vali...)">
+                  </a> <!-- runScenario("Update a Batch with valid batchID and mandatory request body", "As a tester,I want to test and vali...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Update a Batch with valid batchID and mandatory request body","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create a program id&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("create a program id", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create a program id","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to retrieve a batch with invalid BATCH NAME&quot;, &quot;As a tester,I want to test and va...)">
+                  </a> <!-- runScenario("Check if user able to retrieve a batch with invalid BATCH NAME", "As a tester,I want to test and va...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to retrieve a batch with invalid BATCH NAME","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to create a program with valid endpoint and request body (existing values in Pro...)">
+                  </a> <!-- runScenario("Check if user able to create a program with valid endpoint and request body (existing values in Pro...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to create a program with valid endpoint and request body (existing values in Program Name)","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update a Batch with valid batchID and missing mandatory fields request body&quot;,...)">
+                  </a> <!-- runScenario("Check if user able to update a Batch with valid batchID and missing mandatory fields request body",...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update a Batch with valid batchID and missing mandatory fields request body","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create a Batch with valid endpoint and request body&quot;, &quot;As a tester,I want to test and validate Prog...)">
+                  </a> <!-- runScenario("Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Prog...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create a Batch with valid endpoint and request body","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to retrieve a batch with valid BATCH ID&quot;, &quot;As a tester,I want to test and valida...)">
+                  </a> <!-- runScenario("Check if user able to retrieve a batch with valid BATCH ID", "As a tester,I want to test and valida...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to retrieve a batch with valid BATCH ID","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)">
+                  </a> <!-- runScenario("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get response with programName&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("Get response with programName", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get response with programName","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get negative sceanrio  with programName&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("Get negative sceanrio  with programName", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get negative sceanrio  with programName","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a program  missing mandatory fields&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("user able to update a program  missing mandatory fields", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a program  missing mandatory fields","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)">
+                  </a> <!-- runScenario("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create a program id&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("create a program id", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create a program id","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create a Batch with valid endpoint and request body&quot;, &quot;As a tester,I want to test and validate Prog...)">
+                  </a> <!-- runScenario("Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Prog...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create a Batch with valid endpoint and request body","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user is able to retrive with invalid prgramID&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("user is able to retrive with invalid prgramID", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user is able to retrive with invalid prgramID","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to retrieve a batch with valid BATCH NAME&quot;, &quot;As a tester,I want to test and vali...)">
+                  </a> <!-- runScenario("Check if user able to retrieve a batch with valid BATCH NAME", "As a tester,I want to test and vali...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to retrieve a batch with valid BATCH NAME","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update a program with valid programID&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("Check if user able to update a program with valid programID", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update a program with valid programID","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Update a Batch with invalid batchID and mandatory request body&quot;, &quot;As a tester,I want to test and va...)">
+                  </a> <!-- runScenario("Update a Batch with invalid batchID and mandatory request body", "As a tester,I want to test and va...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Update a Batch with invalid batchID and mandatory request body","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to retrieve a batch with invalid Program Id&quot;, &quot;As a tester,I want to test and va...)">
+                  </a> <!-- runScenario("Check if user able to retrieve a batch with invalid Program Id", "As a tester,I want to test and va...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to retrieve a batch with invalid Program Id","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get program details with the programid&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("Get program details with the programid", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get program details with the programid","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to retrieve a batch with valid Program ID&quot;, &quot;As a tester,I want to test and vali...)">
+                  </a> <!-- runScenario("Check if user able to retrieve a batch with valid Program ID", "As a tester,I want to test and vali...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to retrieve a batch with valid Program ID","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update a program with invalid programID&quot;, &quot;Program module&quot;)">
+                  </a> <!-- runScenario("Check if user able to update a program with invalid programID", "Program module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update a program with invalid programID","Program module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to retrieve a batch with invalid BATCH ID&quot;, &quot;As a tester,I want to test and vali...)">
+                  </a> <!-- runScenario("Check if user able to retrieve a batch with invalid BATCH ID", "As a tester,I want to test and vali...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to retrieve a batch with invalid BATCH ID","As a tester,I want to test and validate Program Batch Module")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -139,7 +545,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jsri3\AppData\Local\Temp\testng-eclipse-1996726231\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\jsri3\AppData\Local\Temp\testng-eclipse-653056146\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,16 +602,112 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(25);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.LMSRestAssured_Runner')
-data.setCell(0, 3, 60);
+data.setCell(0, 3, 2491);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(1, 3, 450);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(2, 3, 301);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(3, 3, 271);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(4, 3, 260);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(5, 3, 257);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(6, 3, 242);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(7, 3, 239);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(8, 3, 227);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(9, 3, 212);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(10, 3, 211);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(11, 3, 204);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(12, 3, 203);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(13, 3, 202);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(14, 3, 200);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(15, 3, 199);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(16, 3, 199);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(17, 3, 195);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(18, 3, 192);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(19, 3, 186);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(20, 3, 182);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(21, 3, 179);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(22, 3, 173);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(23, 3, 171);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(24, 3, 159);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 60 ms</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -233,16 +735,114 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runner.LMSRestAssured_Runner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@552518c3)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@7d8a5ec7)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Check if user able to retrieve all batches  with valid LMS API", "Title of your feature")</span>
-                <span class="method-start">344 ms</span>
+                <span class="method-name">runScenario("create a program id", "Program module")</span>
+                <span class="method-start">509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create a program id", "Program module")</span>
+                <span class="method-start">3003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to create a program with valid endpoint and request body (existing values in Pro...)</span>
+                <span class="method-start">3277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Missing mandotiry field request", "Program module")</span>
+                <span class="method-start">3521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get program details with the programid", "Program module")</span>
+                <span class="method-start">3720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get response with programName", "Program module")</span>
+                <span class="method-start">3921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get negative sceanrio  with programName", "Program module")</span>
+                <span class="method-start">4167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Check if user able to update a program using valid program name", "Program module")</span>
+                <span class="method-start">4370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update a program with invalid programID", "Program module")</span>
+                <span class="method-start">4630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a program  missing mandatory fields", "Program module")</span>
+                <span class="method-start">4846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update a program with valid programID", "Program module")</span>
+                <span class="method-start">5050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user is able to retrive with invalid prgramID", "Program module")</span>
+                <span class="method-start">5280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Prog...)</span>
+                <span class="method-start">5470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Prog...)</span>
+                <span class="method-start">5772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)</span>
+                <span class="method-start">6034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to create a Batch with valid endpoint and request body (existing value in Batch ...)</span>
+                <span class="method-start">6238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to retrieve a batch with valid BATCH ID", "As a tester,I want to test and valida...)</span>
+                <span class="method-start">6423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to retrieve a batch with invalid BATCH ID", "As a tester,I want to test and vali...)</span>
+                <span class="method-start">6875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to retrieve a batch with valid BATCH NAME", "As a tester,I want to test and vali...)</span>
+                <span class="method-start">7078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to retrieve a batch with invalid BATCH NAME", "As a tester,I want to test and va...)</span>
+                <span class="method-start">7271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to retrieve a batch with valid Program ID", "As a tester,I want to test and vali...)</span>
+                <span class="method-start">7447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to retrieve a batch with invalid Program Id", "As a tester,I want to test and va...)</span>
+                <span class="method-start">7607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Update a Batch with valid batchID and mandatory request body", "As a tester,I want to test and vali...)</span>
+                <span class="method-start">7779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Update a Batch with invalid batchID and mandatory request body", "As a tester,I want to test and va...)</span>
+                <span class="method-start">7991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update a Batch with valid batchID and missing mandatory fields request body",...)</span>
+                <span class="method-start">8173 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">409 ms</span>
+                <span class="method-start">8382 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

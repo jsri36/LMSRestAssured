@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>24/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 21 15:16:31 EDT 2023</td>
+<td>Started on:</td><td>Thu Jul 27 09:44:57 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (445 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8581 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,75 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program using valid program name", "Program module"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.Program_SD.user_receives_bad_request_status_with_message_and_boolean_success_details_for_program(Program_SD.java:348)
+	at ✽.User receives 400 Bad Request Status with message and boolean success details for program(file:///C:/Users/jsri3/WorkSpace/LMSRestAssured/src/test/resources/features/1_program.feature:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace543921564", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace543921564'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.Program_SD.user_receives_bad_request_status_with_message_and_boolean_success_details_for_program(Program_SD.java:348)
+	at ✽.User receives 400 Bad Request Status with message and boolean success details for program(file:///C:/Users/jsri3/WorkSpace/LMSRestAssured/src/test/resources/features/1_program.feature:58)
+</pre></div></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +145,125 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve all batches  with valid LMS API", "Title of your feature"</td>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Missing mandotiry field request", "Program module"</td>
 <td></td>
 <td>0</td>
-<td>runner.LMSRestAssured_Runner@128d2484</td></tr>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a Batch with valid batchID and mandatory request body", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create a program id", "Program module"</td>
+<td></td>
+<td>2</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with invalid BATCH NAME", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a program with valid endpoint and request body (existing values in Program Name)", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a Batch with valid batchID and missing mandatory fields request body", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with valid BATCH ID", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get response with programName", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get negative sceanrio  with programName", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a program  missing mandatory fields", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to create a Batch with valid endpoint and request body (existing value in Batch Name)", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create a program id", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a Batch with valid endpoint and request body", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user is able to retrive with invalid prgramID", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with valid BATCH NAME", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program with valid programID", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update a Batch with invalid batchID and mandatory request body", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with invalid Program Id", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get program details with the programid", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with valid Program ID", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to update a program with invalid programID", "Program module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve a batch with invalid BATCH ID", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@210ab13f</td></tr>
 </table><p>
 </body>
 </html>

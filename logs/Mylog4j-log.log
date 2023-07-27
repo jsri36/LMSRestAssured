@@ -1,0 +1,232 @@
+['INFO ]2023-07-25 09:32:44,488(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-25 09:32:47,119(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-25 09:32:47,408(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-25 09:32:47,601(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-25 09:32:47,761(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get All Batches *********
+['INFO ]2023-07-25 09:32:48,139(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-25 09:32:48,635(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-25 09:32:48,794(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-25 09:32:48,961(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-25 09:32:49,104(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-25 09:32:49,243(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-25 09:32:49,386(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-25 09:32:49,577(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-25 09:32:49,721(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-25 09:32:49,722(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-25 09:32:49,930(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by Batch ID *********
+['INFO ]2023-07-25 09:32:50,231(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by invalid Batch ID *********
+['INFO ]2023-07-26 10:37:11,053(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 10:37:13,513(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 10:37:13,805(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 10:37:14,021(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with Existing values *********
+['INFO ]2023-07-26 10:37:14,038(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 10:37:14,040(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with missing mandatory fields*********
+['INFO ]2023-07-26 10:37:14,221(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with Existing values *********
+['INFO ]2023-07-26 10:37:14,241(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get All Batches *********
+['INFO ]2023-07-26 10:37:14,744(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-26 10:37:15,291(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-26 10:37:15,433(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-26 10:37:15,590(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-26 10:37:15,747(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-26 10:37:15,890(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-26 10:37:16,033(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-26 10:37:16,226(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-26 10:37:16,382(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-26 10:37:16,383(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-26 10:37:16,519(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with Existing values *********
+['INFO ]2023-07-26 10:37:16,528(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by Batch ID *********
+['INFO ]2023-07-26 10:37:16,812(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by invalid Batch ID *********
+['INFO ]2023-07-26 19:46:49,987(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 19:46:52,220(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 19:46:52,472(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 19:46:52,673(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with Existing values *********
+['INFO ]2023-07-26 19:46:52,689(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-26 19:46:52,690(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with missing mandatory fields*********
+['INFO ]2023-07-26 19:46:52,851(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with Existing values *********
+['INFO ]2023-07-26 19:46:52,869(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get All Batches *********
+['INFO ]2023-07-26 19:46:53,487(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-26 19:46:53,981(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-26 19:46:54,133(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-26 19:46:54,298(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-26 19:46:54,436(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-26 19:46:54,591(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-26 19:46:54,738(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-26 19:46:54,951(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-26 19:46:55,142(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-26 19:46:55,144(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-26 19:46:55,308(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with Existing values *********
+['INFO ]2023-07-26 19:46:55,317(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by Batch ID *********
+['INFO ]2023-07-26 19:46:55,626(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by invalid Batch ID *********
+['INFO ]2023-07-27 08:34:30,055(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:34:31,837(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:34:32,075(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:34:32,316(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:34:32,319(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with missing mandatory fields*********
+['INFO ]2023-07-27 08:34:32,535(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get All Batches *********
+['INFO ]2023-07-27 08:34:33,323(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-27 08:34:33,498(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-27 08:34:33,702(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-27 08:34:33,899(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-27 08:34:34,083(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-27 08:34:34,250(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-27 08:34:34,418(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 08:34:34,618(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-27 08:34:34,802(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 08:34:34,803(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-27 08:43:26,021(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:43:26,229(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:43:26,448(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:43:26,623(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 08:43:26,624(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with missing mandatory fields*********
+['INFO ]2023-07-27 08:43:26,785(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-27 08:43:26,946(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-27 08:43:27,103(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-27 08:43:27,259(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-27 08:43:27,419(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-27 08:43:27,559(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-27 08:43:27,714(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 08:43:27,868(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-27 08:43:28,056(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 08:43:28,058(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-27 09:45:03,188(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 09:45:03,468(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 09:45:03,734(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 09:45:03,937(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 09:45:03,939(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with missing mandatory fields*********
+['INFO ]2023-07-27 09:45:04,125(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-27 09:45:04,573(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-27 09:45:04,775(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-27 09:45:04,971(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-27 09:45:05,145(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-27 09:45:05,303(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-27 09:45:05,475(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 09:45:05,687(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-27 09:45:05,876(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 09:45:05,877(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-27 12:08:48,251(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by Batch ID *********
+['INFO ]2023-07-27 12:08:50,120(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by invalid Batch ID *********
+['INFO ]2023-07-27 13:11:07,742(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program *********
+['INFO ]2023-07-27 13:11:09,715(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program *********
+['INFO ]2023-07-27 13:11:09,972(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program 400 *********
+['INFO ]2023-07-27 13:11:10,158(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program Missing Field *********
+['INFO ]2023-07-27 13:11:10,356(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get All Program *********
+['INFO ]2023-07-27 13:11:10,764(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get by Id*********
+['INFO ]2023-07-27 13:11:10,949(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update by name *********
+['INFO ]2023-07-27 13:11:11,139(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update by name *********
+['INFO ]2023-07-27 13:11:11,319(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update bad request*********
+['INFO ]2023-07-27 13:11:11,497(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update by invalid programid *********
+['INFO ]2023-07-27 13:11:11,664(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update programid missing value *********
+['INFO ]2023-07-27 13:11:12,145(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:11:12,415(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:11:12,637(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:11:12,814(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:11:12,815(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with missing mandatory fields*********
+['INFO ]2023-07-27 13:11:12,973(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-27 13:11:13,356(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-27 13:11:13,529(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-27 13:11:13,696(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-27 13:11:13,840(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-27 13:11:13,984(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-27 13:11:14,154(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 13:11:14,327(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-27 13:11:14,499(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 13:11:14,500(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-27 13:11:18,058(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by Batch ID *********
+['INFO ]2023-07-27 13:11:18,332(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by invalid Batch ID *********
+['INFO ]2023-07-27 13:11:18,477(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete by program name *********
+['INFO ]2023-07-27 13:11:18,763(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete by id *********
+['INFO ]2023-07-27 13:33:08,285(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program *********
+['INFO ]2023-07-27 13:33:10,273(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program *********
+['INFO ]2023-07-27 13:33:10,526(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program 400 *********
+['INFO ]2023-07-27 13:33:10,733(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Create Program Missing Field *********
+['INFO ]2023-07-27 13:33:10,915(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get All Program *********
+['INFO ]2023-07-27 13:33:11,357(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get by Id*********
+['INFO ]2023-07-27 13:33:11,581(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update by name *********
+['INFO ]2023-07-27 13:33:11,777(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update by name *********
+['INFO ]2023-07-27 13:33:11,942(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update bad request*********
+['INFO ]2023-07-27 13:33:12,133(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update by invalid programid *********
+['INFO ]2023-07-27 13:33:12,315(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update programid missing value *********
+['INFO ]2023-07-27 13:33:12,862(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:33:13,150(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:33:13,378(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:33:13,553(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch *********
+['INFO ]2023-07-27 13:33:13,555(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Batch with missing mandatory fields*********
+['INFO ]2023-07-27 13:33:13,746(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get All Batches *********
+['INFO ]2023-07-27 13:33:14,881(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by ID *********
+['INFO ]2023-07-27 13:33:15,245(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Batch by Invalid Id *********
+['INFO ]2023-07-27 13:33:15,395(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch By Name*********
+['INFO ]2023-07-27 13:33:15,558(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid Batch*********
+['INFO ]2023-07-27 13:33:15,708(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by program ID *********
+['INFO ]2023-07-27 13:33:15,873(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Getting Batch by Invalid program ID*********
+['INFO ]2023-07-27 13:33:16,033(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 13:33:16,220(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch by Bad Request *********
+['INFO ]2023-07-27 13:33:16,395(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Batch *********
+['INFO ]2023-07-27 13:33:16,396(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Updata Batch with missing fields *********
+['INFO ]2023-07-27 13:33:16,811(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User Post Creation Success
+['INFO ]2023-07-27 13:33:17,028(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User Post Creation Success
+['INFO ]2023-07-27 13:33:17,261(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User Post Creation Success
+['INFO ]2023-07-27 13:33:17,450(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:17,462(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty Phone no
+['INFO ]2023-07-27 13:33:17,660(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:17,669(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-With existing phone no
+['INFO ]2023-07-27 13:33:17,844(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:17,853(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty RoleId
+['INFO ]2023-07-27 13:33:18,016(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:18,029(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserRoleStatus
+['INFO ]2023-07-27 13:33:18,176(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:18,185(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserLastName
+['INFO ]2023-07-27 13:33:18,364(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:18,378(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserTimeZone
+['INFO ]2023-07-27 13:33:18,582(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:18,590(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserVisaStatus
+['INFO ]2023-07-27 13:33:18,765(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 13:33:18,777(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserFirstName
+['INFO ]2023-07-27 13:33:19,127(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get All users
+['INFO ]2023-07-27 13:33:19,302(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get User by ID
+['INFO ]2023-07-27 13:33:19,334(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get User by Invalid Id
+['INFO ]2023-07-27 13:33:19,508(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get All Staff
+['INFO ]2023-07-27 13:33:25,206(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get User with Roles
+['INFO ]2023-07-27 13:33:25,575(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user with valid user id
+['INFO ]2023-07-27 13:33:25,592(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user with invalid user id
+['INFO ]2023-07-27 13:33:25,907(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 13:33:26,055(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 13:33:26,232(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 13:33:26,408(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 13:33:26,611(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status with valid user id
+['INFO ]2023-07-27 13:33:26,677(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status with invalid user id
+['INFO ]2023-07-27 13:33:26,970(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status missing mandatory fields
+['INFO ]2023-07-27 13:33:27,124(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status missing mandatory fields
+['INFO ]2023-07-27 13:33:27,341(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assigned to program/batch success
+['INFO ]2023-07-27 13:33:27,359(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assign to program/batch success with invalid id
+['INFO ]2023-07-27 13:33:27,756(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assign to program/batch mandatory Field validation
+['INFO ]2023-07-27 13:33:27,975(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assign to program/batch mandatory Field validation
+['INFO ]2023-07-27 13:33:28,012(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment *********
+['INFO ]2023-07-27 13:33:28,222(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment *********
+['INFO ]2023-07-27 13:33:28,437(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment with existing values and missing fields *********
+['INFO ]2023-07-27 13:33:28,606(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment with existing values and missing fields *********
+['INFO ]2023-07-27 13:33:28,745(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment with existing values and missing fields *********
+['INFO ]2023-07-27 13:33:28,899(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get all Assignment *********
+['INFO ]2023-07-27 13:33:29,200(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment by ID *********
+['INFO ]2023-07-27 13:33:29,360(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment with invalid assignmentid*********
+['INFO ]2023-07-27 13:33:29,515(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment for batch *********
+['INFO ]2023-07-27 13:33:29,674(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment with invalid batchid *********
+['INFO ]2023-07-27 13:33:29,811(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with valid assignmentid *********
+['INFO ]2023-07-27 13:33:29,953(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* update Assignment with invalid assignmentid *********
+['INFO ]2023-07-27 13:33:30,095(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:30,245(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:30,391(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:30,526(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:30,669(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:30,817(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:30,956(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:31,123(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:31,282(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:31,431(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 13:33:34,967(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Deleting Assignment with valid assignmentid *********
+['INFO ]2023-07-27 13:33:35,130(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Deleting Assignment with invalid assignmentid *********
+['INFO ]2023-07-27 13:33:35,694(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Delete- user Valid ID
+['INFO ]2023-07-27 13:33:35,850(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Delete- user InValid ID
+['INFO ]2023-07-27 13:33:35,865(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by Batch ID *********
+['INFO ]2023-07-27 13:33:36,152(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete Batch by invalid Batch ID *********
+['INFO ]2023-07-27 13:33:36,306(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete by program name *********
+['INFO ]2023-07-27 13:33:36,605(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Delete by id *********

@@ -1,0 +1,1 @@
+{"uuid":"9491b974-4b21-4640-b1b4-ba722ca46f98","name":"Scenario Outline: user able to assign user to program/batch with missing mandatory fields in request body","children":["c756a52f-ce3f-43ce-b99d-e6fcf9f43cb5"],"befores":[],"afters":[],"start":1690472062912,"stop":1690472063076}

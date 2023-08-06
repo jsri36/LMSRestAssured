@@ -1,0 +1,1 @@
+{"uuid":"4a85f69d-1d11-4f72-8bdc-227cbc44f8ca","name":"Scenario Outline: Create assignment with valid endpoint and request body from excelsheet \"<Sheetname>\" and <Rownumber>","children":["613130d8-71c6-41e2-88a7-129b3347fa9b"],"befores":[],"afters":[],"start":1690472063756,"stop":1690472064034}

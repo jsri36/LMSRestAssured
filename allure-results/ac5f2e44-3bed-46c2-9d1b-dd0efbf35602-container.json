@@ -1,0 +1,1 @@
+{"uuid":"ac5f2e44-3bed-46c2-9d1b-dd0efbf35602","name":"Scenario: To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment id","children":["d37767dd-edfb-4419-beb2-0e95d363900e"],"befores":[],"afters":[],"start":1690472070580,"stop":1690472070683}

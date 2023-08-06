@@ -1,0 +1,1 @@
+{"uuid":"0e0ae480-63e7-40f2-82b7-693582b4df82","name":"Scenario Outline: create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet \"<Sheetname>\" and <RowNumber>","children":["1a000543-93ce-4f2e-8f9c-9a16999ab921"],"befores":[],"afters":[],"start":1690464864350,"stop":1690464864512}

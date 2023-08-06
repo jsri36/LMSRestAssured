@@ -1,0 +1,1 @@
+{"uuid":"4aac364c-c86b-47fa-bebb-4ae5b2bb0e1e","name":"Scenario Outline: user able to update a user rolestatus with missing mandatory fields in request body","children":["42ca049b-748c-4ec5-8f53-00d2d757851c"],"befores":[],"afters":[],"start":1690464869864,"stop":1690464870040}

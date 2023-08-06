@@ -1,0 +1,1 @@
+{"uuid":"af11934f-0ecd-4f11-b843-0392ca339674","name":"Scenario: To verify that user is able to retrieve a record with invalid batch ID","children":["732b359f-8d85-4e43-aec7-5499926c3a15"],"befores":[],"afters":[],"start":1690472065844,"stop":1690472065956}

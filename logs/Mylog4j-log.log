@@ -1,0 +1,64 @@
+['INFO ]2023-07-27 11:34:11,536(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User Post Creation Success
+['INFO ]2023-07-27 11:34:12,641(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User Post Creation Success
+['INFO ]2023-07-27 11:34:12,908(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User Post Creation Success
+['INFO ]2023-07-27 11:34:13,134(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:13,160(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty Phone no
+['INFO ]2023-07-27 11:34:13,351(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:13,359(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-With existing phone no
+['INFO ]2023-07-27 11:34:13,534(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:13,544(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty RoleId
+['INFO ]2023-07-27 11:34:13,704(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:13,720(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserRoleStatus
+['INFO ]2023-07-27 11:34:13,902(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:13,916(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserLastName
+['INFO ]2023-07-27 11:34:14,092(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:14,109(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserTimeZone
+['INFO ]2023-07-27 11:34:14,324(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:14,342(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserVisaStatus
+['INFO ]2023-07-27 11:34:14,506(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Users Mandatory Field Validation and existing Phone no
+['INFO ]2023-07-27 11:34:14,514(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Empty UserFirstName
+['INFO ]2023-07-27 11:34:15,096(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get All users
+['INFO ]2023-07-27 11:34:15,267(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get User by ID
+['INFO ]2023-07-27 11:34:15,609(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get User by Invalid Id
+['INFO ]2023-07-27 11:34:15,789(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get All Staff
+['INFO ]2023-07-27 11:34:20,537(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Get User with Roles
+['INFO ]2023-07-27 11:34:20,903(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user with valid user id
+['INFO ]2023-07-27 11:34:20,939(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user with invalid user id
+['INFO ]2023-07-27 11:34:21,217(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 11:34:21,391(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 11:34:21,556(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 11:34:21,762(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user mandatory Field validation
+['INFO ]2023-07-27 11:34:21,938(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status with valid user id
+['INFO ]2023-07-27 11:34:22,004(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status with invalid user id
+['INFO ]2023-07-27 11:34:22,296(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status missing mandatory fields
+['INFO ]2023-07-27 11:34:22,470(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- update user role status missing mandatory fields
+['INFO ]2023-07-27 11:34:22,700(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assigned to program/batch success
+['INFO ]2023-07-27 11:34:22,744(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assign to program/batch success with invalid id
+['INFO ]2023-07-27 11:34:23,069(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assign to program/batch mandatory Field validation
+['INFO ]2023-07-27 11:34:23,234(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Put- user assign to program/batch mandatory Field validation
+['INFO ]2023-07-27 11:34:23,560(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Delete- user Valid ID
+['INFO ]2023-07-27 11:34:23,702(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Delete- user InValid ID
+['INFO ]2023-07-27 11:34:23,770(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment *********
+['INFO ]2023-07-27 11:34:24,052(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment *********
+['INFO ]2023-07-27 11:34:24,324(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment with existing values and missing fields *********
+['INFO ]2023-07-27 11:34:24,580(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment with existing values and missing fields *********
+['INFO ]2023-07-27 11:34:24,820(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Creating Assignment with existing values and missing fields *********
+['INFO ]2023-07-27 11:34:25,129(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get all Assignment *********
+['INFO ]2023-07-27 11:34:25,377(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment by ID *********
+['INFO ]2023-07-27 11:34:25,512(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment with invalid assignmentid*********
+['INFO ]2023-07-27 11:34:25,630(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment for batch *********
+['INFO ]2023-07-27 11:34:25,845(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Get Assignment with invalid batchid *********
+['INFO ]2023-07-27 11:34:25,978(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with valid assignmentid *********
+['INFO ]2023-07-27 11:34:26,383(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* update Assignment with invalid assignmentid *********
+['INFO ]2023-07-27 11:34:26,736(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:27,121(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:27,472(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:27,834(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:28,389(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:28,723(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:29,131(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:29,486(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:29,816(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:30,123(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Update Assignment with missing mandatory fields *********
+['INFO ]2023-07-27 11:34:30,470(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Deleting Assignment with valid assignmentid *********
+['INFO ]2023-07-27 11:34:30,581(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-********* Deleting Assignment with invalid assignmentid *********

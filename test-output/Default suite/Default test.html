@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>56/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 21 15:16:31 EDT 2023</td>
+<td>Started on:</td><td>Thu Jul 27 11:34:07 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (445 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22821 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,75 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "retrieve all staff users with valid endpoint", "create different user and validate all users"</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.User_SD.user_will_receive_status_with_reponse_body(User_SD.java:353)
+	at ✽.user will receive 200 status with reponse body(file:///C:/Users/sange/git/LMSRestAssured/src/test/resources/features/3User.feature:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1009383102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1009383102'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.User_SD.user_will_receive_status_with_reponse_body(User_SD.java:353)
+	at ✽.user will receive 200 status with reponse body(file:///C:/Users/sange/git/LMSRestAssured/src/test/resources/features/3User.feature:59)
+</pre></div></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +145,285 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve all batches  with valid LMS API", "Title of your feature"</td>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
 <td></td>
 <td>0</td>
-<td>runner.LMSRestAssured_Runner@128d2484</td></tr>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to delete a record with valid assignment id", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to delete a user with invalid User Id", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 3", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user with invalid User ID", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 4", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 10", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "retrieve all users with valid endpoint", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 6", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 1", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "retrieve all users with roles with valid endpoint", "create different user and validate all users"</td>
+<td></td>
+<td>4</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user with valid User ID and request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to retrieve a record with valid batch ID", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to delete a user with valid User Id", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to retrieve a record with invalid assignment ID", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to retrieve a record with invalid batch ID", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user able to retrieve all batches with valid LMS API", "As a tester,I want to test and validate Program Batch Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create assignment with valid endpoint and with existing assignmentName in request body from excelsheet "Sheet1" and 1", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user role status with valid User ID and request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to retrieve a record with valid LMS API", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint and request body from excelsheet "Sheet1" and 2", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment id", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user rolestatus with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create assignment with valid endpoint and with existing assignmentName in request body from excelsheet "Sheet1" and 0", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 7", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint and request body from excelsheet "Sheet1" and 0", "create different user and validate all users"</td>
+<td></td>
+<td>3</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to assign user to program / batch with valid User Id and request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to retrieve a record with valid assignment ID", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user rolestatus with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with invalid assignment id and mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 0", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 9", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to assign user to program/batch with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user role status with invalid User ID", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create assignment with valid endpoint and with existing assignmentName in request body from excelsheet "Sheet1" and 2", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to retrieve a user with invalid User ID", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint and request body from excelsheet "Sheet1" and 1", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to update a user with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to assign user to program/batch with missing mandatory fields in request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user is able to update a record with valid assignment id and missing mandatory request body", "Assignment Module"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 5", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 8", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to assign user to program/batch with invalid User Id and request body", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
+<tr>
+<td title='runner.LMSRestAssured_Runner.runScenario()'><b>runScenario</b><br>Test class: runner.LMSRestAssured_Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user able to retrieve a user with valid User ID", "create different user and validate all users"</td>
+<td></td>
+<td>0</td>
+<td>runner.LMSRestAssured_Runner@62379589</td></tr>
 </table><p>
 </body>
 </html>

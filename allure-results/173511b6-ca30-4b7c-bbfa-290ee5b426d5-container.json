@@ -1,0 +1,1 @@
+{"uuid":"173511b6-ca30-4b7c-bbfa-290ee5b426d5","name":"Scenario Outline: user able to update a user with missing mandatory fields in request body","children":["0082638d-e6be-486b-af31-14289c4462d7"],"befores":[],"afters":[],"start":1690464869414,"stop":1690464869539}

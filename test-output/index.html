@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\jsri3\AppData\Local\Temp\testng-eclipse-1996726231\testng-customsuite.xml</span>
+                    <span>C:\Users\sange\AppData\Local\Temp\testng-eclipse-94546809\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">57 methods, 1 failed,   56 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;retrieve all staff users with valid endpoint&quot;, &quot;create different user and validate all users&quot;)">runScenario("retrieve all staff users with valid endpoint", "create different user and validate all users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,282 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve all batches  with valid LMS API&quot;, &quot;Title of your feature&quot;)">runScenario("Check if user able to retrieve all batches  with valid LMS API", "Title of your feature")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to delete a record with valid assignment id&quot;, &quot;Assignment Module&quot;)">runScenario("To verify that user is able to delete a record with valid assignment id", "Assignment Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to delete a user with invalid User Id&quot;, &quot;create different user and validate all users&quot;)">runScenario("user able to delete a user with invalid User Id", "create different user and validate all users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and mandatory request body&quot;...)">runScenario("To verify that user is able to update a record with valid assignment id and mandatory request body"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user with invalid User ID&quot;, &quot;create different user and validate all users&quot;)">runScenario("user able to update a user with invalid User ID", "create different user and validate all users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;retrieve all users with valid endpoint&quot;, &quot;create different user and validate all users&quot;)">runScenario("retrieve all users with valid endpoint", "create different user and validate all users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Create assignment with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 1&quot;, &quot;Assignment...)">runScenario("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 1", "Assignment...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;retrieve all users with roles with valid endpoint&quot;, &quot;create different user and validate all users&quot;)">runScenario("retrieve all users with roles with valid endpoint", "create different user and validate all users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user with valid User ID and request body&quot;, &quot;create different user and validat...)">runScenario("user able to update a user with valid User ID and request body", "create different user and validat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to retrieve a record with valid batch ID&quot;, &quot;Assignment Module&quot;)">runScenario("To verify that user is able to retrieve a record with valid batch ID", "Assignment Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to delete a user with valid User Id&quot;, &quot;create different user and validate all users&quot;)">runScenario("user able to delete a user with valid User Id", "create different user and validate all users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to retrieve a record with invalid assignment ID&quot;, &quot;Assignment Module&quot;)">runScenario("To verify that user is able to retrieve a record with invalid assignment ID", "Assignment Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to retrieve a record with invalid batch ID&quot;, &quot;Assignment Module&quot;)">runScenario("To verify that user is able to retrieve a record with invalid batch ID", "Assignment Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to retrieve all batches with valid LMS API&quot;, &quot;As a tester,I want to test and val...)">runScenario("Check if user able to retrieve all batches with valid LMS API", "As a tester,I want to test and val...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)">runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user role status with valid User ID and request body&quot;, &quot;create different user...)">runScenario("user able to update a user role status with valid User ID and request body", "create different user...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to retrieve a record with valid LMS API&quot;, &quot;Assignment Module&quot;)">runScenario("To verify that user is able to retrieve a record with valid LMS API", "Assignment Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 2&quot;, &quot;create differen...)">runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 2", "create differen...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment i...)">runScenario("To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user rolestatus with missing mandatory fields in request body&quot;, &quot;create diffe...)">runScenario("user able to update a user rolestatus with missing mandatory fields in request body", "create diffe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)">runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 0&quot;, &quot;create differen...)">runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 0", "create differen...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to assign user to program / batch with valid User Id and request body&quot;, &quot;create different...)">runScenario("user able to assign user to program / batch with valid User Id and request body", "create different...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to retrieve a record with valid assignment ID&quot;, &quot;Assignment Module&quot;)">runScenario("To verify that user is able to retrieve a record with valid assignment ID", "Assignment Module")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user rolestatus with missing mandatory fields in request body&quot;, &quot;create diffe...)">runScenario("user able to update a user rolestatus with missing mandatory fields in request body", "create diffe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with invalid assignment id and mandatory request bod...)">runScenario("To verify that user is able to update a record with invalid assignment id and mandatory request bod...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Create assignment with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 0&quot;, &quot;Assignment...)">runScenario("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 0", "Assignment...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to assign user to program/batch with missing mandatory fields in request body&quot;, &quot;create d...)">runScenario("user able to assign user to program/batch with missing mandatory fields in request body", "create d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user role status with invalid User ID&quot;, &quot;create different user and validate a...)">runScenario("user able to update a user role status with invalid User ID", "create different user and validate a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)">runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to retrieve a user with invalid User ID&quot;, &quot;create different user and validate all users&quot;)">runScenario("user able to retrieve a user with invalid User ID", "create different user and validate all users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 1&quot;, &quot;create differen...)">runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 1", "create differen...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to assign user to program/batch with missing mandatory fields in request body&quot;, &quot;create d...)">runScenario("user able to assign user to program/batch with missing mandatory fields in request body", "create d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to assign user to program/batch with invalid User Id and request body&quot;, &quot;create different...)">runScenario("user able to assign user to program/batch with invalid User Id and request body", "create different...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.LMSRestAssured_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;user able to retrieve a user with valid User ID&quot;, &quot;create different user and validate all users&quot;)">runScenario("user able to retrieve a user with valid User ID", "create different user and validate all users")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -118,6 +407,53 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.LMSRestAssured_Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;retrieve all staff users with valid endpoint&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("retrieve all staff users with valid endpoint", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("retrieve all staff users with valid endpoint","create different user and validate all users")</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at stepdefinitions.User_SD.user_will_receive_status_with_reponse_body(User_SD.java:353)
+	at ✽.user will receive 200 status with reponse body(file:///C:/Users/sange/git/LMSRestAssured/src/test/resources/features/3User.feature:59)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,10 +462,560 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Check if user able to retrieve all batches  with valid LMS API&quot;, &quot;Title of your feature&quot;)">
-                  </a> <!-- runScenario("Check if user able to retrieve all batches  with valid LMS API", "Title of your feature") -->
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Check if user able to retrieve all batches  with valid LMS API","Title of your feature")</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to delete a record with valid assignment id&quot;, &quot;Assignment Module&quot;)">
+                  </a> <!-- runScenario("To verify that user is able to delete a record with valid assignment id", "Assignment Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to delete a record with valid assignment id","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to delete a user with invalid User Id&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("user able to delete a user with invalid User Id", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to delete a user with invalid User Id","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and mandatory request body&quot;...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and mandatory request body"...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 3","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user with invalid User ID&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("user able to update a user with invalid User ID", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user with invalid User ID","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 4","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 10","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;retrieve all users with valid endpoint&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("retrieve all users with valid endpoint", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("retrieve all users with valid endpoint","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 6","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create assignment with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 1&quot;, &quot;Assignment...)">
+                  </a> <!-- runScenario("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 1", "Assignment...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 1","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;retrieve all users with roles with valid endpoint&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("retrieve all users with roles with valid endpoint", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("retrieve all users with roles with valid endpoint","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user with valid User ID and request body&quot;, &quot;create different user and validat...)">
+                  </a> <!-- runScenario("user able to update a user with valid User ID and request body", "create different user and validat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user with valid User ID and request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to retrieve a record with valid batch ID&quot;, &quot;Assignment Module&quot;)">
+                  </a> <!-- runScenario("To verify that user is able to retrieve a record with valid batch ID", "Assignment Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to retrieve a record with valid batch ID","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to delete a user with valid User Id&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("user able to delete a user with valid User Id", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to delete a user with valid User Id","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to retrieve a record with invalid assignment ID&quot;, &quot;Assignment Module&quot;)">
+                  </a> <!-- runScenario("To verify that user is able to retrieve a record with invalid assignment ID", "Assignment Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to retrieve a record with invalid assignment ID","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to retrieve a record with invalid batch ID&quot;, &quot;Assignment Module&quot;)">
+                  </a> <!-- runScenario("To verify that user is able to retrieve a record with invalid batch ID", "Assignment Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to retrieve a record with invalid batch ID","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to retrieve all batches with valid LMS API&quot;, &quot;As a tester,I want to test and val...)">
+                  </a> <!-- runScenario("Check if user able to retrieve all batches with valid LMS API", "As a tester,I want to test and val...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to retrieve all batches with valid LMS API","As a tester,I want to test and validate Program Batch Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)">
+                  </a> <!-- runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create assignment with valid endpoint and with existing assignmentName in request body from excelsheet "Sheet1" and 1","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user role status with valid User ID and request body&quot;, &quot;create different user...)">
+                  </a> <!-- runScenario("user able to update a user role status with valid User ID and request body", "create different user...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user role status with valid User ID and request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to retrieve a record with valid LMS API&quot;, &quot;Assignment Module&quot;)">
+                  </a> <!-- runScenario("To verify that user is able to retrieve a record with valid LMS API", "Assignment Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to retrieve a record with valid LMS API","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 2&quot;, &quot;create differen...)">
+                  </a> <!-- runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 2", "create differen...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint and request body from excelsheet "Sheet1" and 2","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment i...)">
+                  </a> <!-- runScenario("To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment i...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment id","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user rolestatus with missing mandatory fields in request body&quot;, &quot;create diffe...)">
+                  </a> <!-- runScenario("user able to update a user rolestatus with missing mandatory fields in request body", "create diffe...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user rolestatus with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)">
+                  </a> <!-- runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create assignment with valid endpoint and with existing assignmentName in request body from excelsheet "Sheet1" and 0","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 7","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 0&quot;, &quot;create differen...)">
+                  </a> <!-- runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 0", "create differen...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint and request body from excelsheet "Sheet1" and 0","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to assign user to program / batch with valid User Id and request body&quot;, &quot;create different...)">
+                  </a> <!-- runScenario("user able to assign user to program / batch with valid User Id and request body", "create different...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to assign user to program / batch with valid User Id and request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to retrieve a record with valid assignment ID&quot;, &quot;Assignment Module&quot;)">
+                  </a> <!-- runScenario("To verify that user is able to retrieve a record with valid assignment ID", "Assignment Module") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to retrieve a record with valid assignment ID","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user rolestatus with missing mandatory fields in request body&quot;, &quot;create diffe...)">
+                  </a> <!-- runScenario("user able to update a user rolestatus with missing mandatory fields in request body", "create diffe...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user rolestatus with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with invalid assignment id and mandatory request bod...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with invalid assignment id and mandatory request bod...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with invalid assignment id and mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create assignment with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 0&quot;, &quot;Assignment...)">
+                  </a> <!-- runScenario("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 0", "Assignment...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 0","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 9","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">
+                  </a> <!-- runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to assign user to program/batch with missing mandatory fields in request body&quot;, &quot;create d...)">
+                  </a> <!-- runScenario("user able to assign user to program/batch with missing mandatory fields in request body", "create d...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to assign user to program/batch with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">
+                  </a> <!-- runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user role status with invalid User ID&quot;, &quot;create different user and validate a...)">
+                  </a> <!-- runScenario("user able to update a user role status with invalid User ID", "create different user and validate a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user role status with invalid User ID","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)">
+                  </a> <!-- runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create assignment with valid endpoint and with existing assignmentName in request body from excelsheet "Sheet1" and 2","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to retrieve a user with invalid User ID&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("user able to retrieve a user with invalid User ID", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to retrieve a user with invalid User ID","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">
+                  </a> <!-- runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint and request body from excelsheet &quot;Sheet1&quot; and 1&quot;, &quot;create differen...)">
+                  </a> <!-- runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 1", "create differen...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint and request body from excelsheet "Sheet1" and 1","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to update a user with missing mandatory fields in request body&quot;, &quot;create different user a...)">
+                  </a> <!-- runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to update a user with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to assign user to program/batch with missing mandatory fields in request body&quot;, &quot;create d...)">
+                  </a> <!-- runScenario("user able to assign user to program/batch with missing mandatory fields in request body", "create d...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to assign user to program/batch with missing mandatory fields in request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;To verify that user is able to update a record with valid assignment id and missing mandatory reque...)">
+                  </a> <!-- runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("To verify that user is able to update a record with valid assignment id and missing mandatory request body","Assignment Module")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 5","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;create users with valid endpoint with existing phone no and missing mandatory fields request body f...)">
+                  </a> <!-- runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("create users with valid endpoint with existing phone no and missing mandatory fields request body from excelsheet "Sheet1" and 8","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to assign user to program/batch with invalid User Id and request body&quot;, &quot;create different...)">
+                  </a> <!-- runScenario("user able to assign user to program/batch with invalid User Id and request body", "create different...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to assign user to program/batch with invalid User Id and request body","create different user and validate all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user able to retrieve a user with valid User ID&quot;, &quot;create different user and validate all users&quot;)">
+                  </a> <!-- runScenario("user able to retrieve a user with valid User ID", "create different user and validate all users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user able to retrieve a user with valid User ID","create different user and validate all users")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -139,7 +1025,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jsri3\AppData\Local\Temp\testng-eclipse-1996726231\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sange\AppData\Local\Temp\testng-eclipse-94546809\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,16 +1082,240 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(57);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.LMSRestAssured_Runner')
-data.setCell(0, 3, 60);
+data.setCell(0, 3, 4639);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(1, 3, 3695);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(2, 3, 575);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(3, 3, 555);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(4, 3, 479);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(5, 3, 407);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(6, 3, 407);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(7, 3, 379);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(8, 3, 363);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(9, 3, 361);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(10, 3, 360);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(11, 3, 354);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(12, 3, 346);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(13, 3, 336);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(14, 3, 328);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(15, 3, 326);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(16, 3, 322);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(17, 3, 320);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(18, 3, 309);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(19, 3, 308);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(20, 3, 295);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(21, 3, 264);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(22, 3, 260);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(23, 3, 249);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(24, 3, 241);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(25, 3, 237);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(26, 3, 232);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(27, 3, 215);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(28, 3, 203);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(29, 3, 195);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(30, 3, 193);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(31, 3, 192);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(32, 3, 191);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(33, 3, 189);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(34, 3, 189);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(35, 3, 187);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runScenario')
+data.setCell(36, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(36, 3, 178);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runScenario')
+data.setCell(37, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(37, 3, 177);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runScenario')
+data.setCell(38, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(38, 3, 176);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runScenario')
+data.setCell(39, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(39, 3, 175);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runScenario')
+data.setCell(40, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(40, 3, 174);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runScenario')
+data.setCell(41, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(41, 3, 172);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runScenario')
+data.setCell(42, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(42, 3, 171);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runScenario')
+data.setCell(43, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(43, 3, 171);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(44, 3, 168);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(45, 3, 167);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(46, 3, 167);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(47, 3, 165);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runScenario')
+data.setCell(48, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(48, 3, 163);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runScenario')
+data.setCell(49, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(49, 3, 157);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'runScenario')
+data.setCell(50, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(50, 3, 143);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'runScenario')
+data.setCell(51, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(51, 3, 137);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'runScenario')
+data.setCell(52, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(52, 3, 136);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'runScenario')
+data.setCell(53, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(53, 3, 115);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'runScenario')
+data.setCell(54, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(54, 3, 114);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'runScenario')
+data.setCell(55, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(55, 3, 114);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'runScenario')
+data.setCell(56, 2, 'runner.LMSRestAssured_Runner')
+data.setCell(56, 3, 24);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 60 ms</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -233,16 +1343,242 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runner.LMSRestAssured_Runner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@552518c3)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@192f807)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Check if user able to retrieve all batches  with valid LMS API", "Title of your feature")</span>
-                <span class="method-start">344 ms</span>
+                <span class="method-name">runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 0", "create differen...)</span>
+                <span class="method-start">731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 1", "create differen...)</span>
+                <span class="method-start">4432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint and request body from excelsheet "Sheet1" and 2", "create differen...)</span>
+                <span class="method-start">4757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">5022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">5227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">5421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">5610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">5792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">5984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">6180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("create users with valid endpoint with existing phone no and missing mandatory fields request body f...)</span>
+                <span class="method-start">6414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("retrieve all users with valid endpoint", "create different user and validate all users")</span>
+                <span class="method-start">6579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to retrieve a user with valid User ID", "create different user and validate all users")</span>
+                <span class="method-start">7158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to retrieve a user with invalid User ID", "create different user and validate all users")</span>
+                <span class="method-start">7640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("retrieve all staff users with valid endpoint", "create different user and validate all users")</span>
+                <span class="method-start">7812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("retrieve all users with roles with valid endpoint", "create different user and validate all users")</span>
+                <span class="method-start">7953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user with valid User ID and request body", "create different user and validat...)</span>
+                <span class="method-start">12596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user with invalid User ID", "create different user and validate all users")</span>
+                <span class="method-start">12972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</span>
+                <span class="method-start">13144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</span>
+                <span class="method-start">13281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</span>
+                <span class="method-start">13456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user with missing mandatory fields in request body", "create different user a...)</span>
+                <span class="method-start">13639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user role status with valid User ID and request body", "create different user...)</span>
+                <span class="method-start">13833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user role status with invalid User ID", "create different user and validate a...)</span>
+                <span class="method-start">13991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user rolestatus with missing mandatory fields in request body", "create diffe...)</span>
+                <span class="method-start">14182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to update a user rolestatus with missing mandatory fields in request body", "create diffe...)</span>
+                <span class="method-start">14358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to assign user to program / batch with valid User Id and request body", "create different...)</span>
+                <span class="method-start">14544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to assign user to program/batch with invalid User Id and request body", "create different...)</span>
+                <span class="method-start">14760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to assign user to program/batch with missing mandatory fields in request body", "create d...)</span>
+                <span class="method-start">14954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to assign user to program/batch with missing mandatory fields in request body", "create d...)</span>
+                <span class="method-start">15128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to delete a user with valid User Id", "create different user and validate all users")</span>
+                <span class="method-start">15295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user able to delete a user with invalid User Id", "create different user and validate all users")</span>
+                <span class="method-start">15619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 0", "Assignment...)</span>
+                <span class="method-start">15792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create assignment with valid endpoint and request body from excelsheet "Sheet1" and 1", "Assignment...)</span>
+                <span class="method-start">16089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)</span>
+                <span class="method-start">16355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)</span>
+                <span class="method-start">16616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create assignment with valid endpoint and with existing assignmentName in request body from excelsh...)</span>
+                <span class="method-start">16858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to retrieve a record with valid LMS API", "Assignment Module")</span>
+                <span class="method-start">17169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to retrieve a record with valid assignment ID", "Assignment Module")</span>
+                <span class="method-start">17408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to retrieve a record with invalid assignment ID", "Assignment Module")</span>
+                <span class="method-start">17552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to retrieve a record with valid batch ID", "Assignment Module")</span>
+                <span class="method-start">17668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to retrieve a record with invalid batch ID", "Assignment Module")</span>
+                <span class="method-start">17842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and mandatory request body"...)</span>
+                <span class="method-start">18011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with invalid assignment id and mandatory request bod...)</span>
+                <span class="method-start">18420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">18775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">19155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">19502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">19871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">20427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">20754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">21162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">21525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">21854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to update a record with valid assignment id and missing mandatory reque...)</span>
+                <span class="method-start">22164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to delete a record with valid assignment id", "Assignment Module")</span>
+                <span class="method-start">22505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("To verify that user is able to delete a record with valid LMS API endpoint and invalid assignment i...)</span>
+                <span class="method-start">22620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to retrieve all batches with valid LMS API", "As a tester,I want to test and val...)</span>
+                <span class="method-start">22736 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">409 ms</span>
+                <span class="method-start">22762 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

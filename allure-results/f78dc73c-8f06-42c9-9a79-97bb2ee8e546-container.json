@@ -1,0 +1,1 @@
+{"uuid":"f78dc73c-8f06-42c9-9a79-97bb2ee8e546","name":"Scenario: user able to assign user to program/batch with invalid User Id and request body","children":["a5229fe3-2eb0-4421-b5d1-ffb1ac133565"],"befores":[],"afters":[],"start":1690464870451,"stop":1690464870614}
